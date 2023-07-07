@@ -1,0 +1,80 @@
+{
+  "name": "scenario3",
+  "beginDate": "2023-02-02T00:00:00",
+  "endDate": "2023-04-10T00:00:00",
+  "intervalBetweenRequestHrs": 1,
+  "maxDeliveryTimeHrs": 2,
+  "trucks": [
+    {
+      "id": "1",
+      "name": "Truck 1",
+      "speed": 40.0,
+      "initialNode": "1"
+    },
+    {
+      "id": "3",
+      "name": "Truck 3",
+      "speed": 40.0,
+      "initialNode": "2"
+    },
+    {
+      "id": "4",
+      "name": "Truck 4",
+      "speed": 40.0,
+      "initialNode": "3"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 20,
+      "y": 20
+    },
+    {
+      "id": "2",
+      "x": 20,
+      "y": -20
+    },
+    {
+      "id": "3",
+      "x": -20,
+      "y": -20
+    }
+  ],
+  "arcs": [
+    {
+      "source": "1",
+      "dest": "2",
+      "points": []
+    },
+    {
+      "source": "2",
+      "dest": "3",
+      "points": []
+    },
+    {
+      "source": "3",
+      "dest": "1",
+      "points": []
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "1",
+      "name": "Warehouse A",
+      "node": "2"
+    }
+  ],
+  "stores": [
+    {
+      "id": "1",
+      "name": "Store A",
+      "node": "1"
+    },
+    {
+      "id": "2",
+      "name": "Store B",
+      "node": "3"
+    }
+  ]
+}

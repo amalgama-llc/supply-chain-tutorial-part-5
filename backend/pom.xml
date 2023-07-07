@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.0.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>web.tutorial</groupId>
+	<artifactId>backend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>backend</name>
+	<description>Supply Chain web app tutorial</description>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>amalgama-platform-maven</id>
+			<url>https://nexus.am-sim.com/repository/amalgama-platform-mvn/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- AMALGAMA LIBRARIES -->
+
+		<dependency>
+			<groupId>com.amalgamasimulation</groupId>
+			<artifactId>com.amalgamasimulation.engine</artifactId>
+			<version>1.12.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.amalgamasimulation</groupId>
+			<artifactId>com.amalgamasimulation.graphagent</artifactId>
+			<version>2.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.amalgamasimulation</groupId>
+			<artifactId>com.amalgamasimulation.randomdatamodel</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.amalgamasimulation</groupId>
+			<artifactId>com.amalgamasimulation.geometry</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+
+		<!-- LIBRARIES FROM TUTORIAL PART 3 -->
+
+		<dependency>
+			<groupId>com.company.tutorial3</groupId>
+			<artifactId>datamodel</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.company.tutorial3</groupId>
+			<artifactId>simulation</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<!-- JSON -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.15.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<version>2.15.1</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

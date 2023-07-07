@@ -1,0 +1,450 @@
+{
+  "name": "scenario4",
+  "beginDate": "2023-02-02T00:00:00",
+  "endDate": "2023-02-12T00:00:00",
+  "intervalBetweenRequestHrs": 1,
+  "maxDeliveryTimeHrs": 2,
+  "trucks": [
+    {
+      "id": "1",
+      "name": "Truck 1",
+      "speed": 40.0,
+      "initialNode": "1"
+    },
+    {
+      "id": "2",
+      "name": "Truck 2",
+      "speed": 40.0,
+      "initialNode": "4"
+    },
+    {
+      "id": "3",
+      "name": "Truck 3",
+      "speed": 40.0,
+      "initialNode": "3"
+    },
+    {
+      "id": "4",
+      "name": "Truck 4",
+      "speed": 40.0,
+      "initialNode": "6"
+    },
+    {
+      "id": "5",
+      "name": "Truck 5",
+      "speed": 40.0,
+      "initialNode": "2"
+    },
+    {
+      "id": "6",
+      "name": "Truck 6",
+      "speed": 40.0,
+      "initialNode": "1"
+    },
+    {
+      "id": "7",
+      "name": "Truck 7",
+      "speed": 40.0,
+      "initialNode": "2"
+    },
+    {
+      "id": "8",
+      "name": "Truck 8",
+      "speed": 40.0,
+      "initialNode": "12"
+    },
+    {
+      "id": "9",
+      "name": "Truck 9",
+      "speed": 40.0,
+      "initialNode": "6"
+    },
+    {
+      "id": "10",
+      "name": "Truck 10",
+      "speed": 40.0,
+      "initialNode": "9"
+    },
+    {
+      "id": "11",
+      "name": "Truck 11",
+      "speed": 40.0,
+      "initialNode": "11"
+    },
+    {
+      "id": "12",
+      "name": "Truck 12",
+      "speed": 40.0,
+      "initialNode": "10"
+    },
+    {
+      "id": "13",
+      "name": "Truck 13",
+      "speed": 40.0,
+      "initialNode": "3"
+    },
+    {
+      "id": "14",
+      "name": "Truck 14",
+      "speed": 40.0,
+      "initialNode": "6"
+    },
+    {
+      "id": "15",
+      "name": "Truck 15",
+      "speed": 40.0,
+      "initialNode": "1"
+    },
+    {
+      "id": "16",
+      "name": "Truck 16",
+      "speed": 40.0,
+      "initialNode": "3"
+    },
+    {
+      "id": "17",
+      "name": "Truck 17",
+      "speed": 40.0,
+      "initialNode": "7"
+    },
+    {
+      "id": "18",
+      "name": "Truck 18",
+      "speed": 40.0,
+      "initialNode": "4"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 80
+    },
+    {
+      "id": "2",
+      "x": 20,
+      "y": 65
+    },
+    {
+      "id": "3",
+      "x": 10,
+      "y": 40
+    },
+    {
+      "id": "4",
+      "x": 50,
+      "y": 40
+    },
+    {
+      "id": "5",
+      "x": 30,
+      "y": -10
+    },
+    {
+      "id": "6",
+      "x": 80,
+      "y": 40
+    },
+    {
+      "id": "7",
+      "x": 120,
+      "y": 0
+    },
+    {
+      "id": "8",
+      "x": 80,
+      "y": -30
+    },
+    {
+      "id": "9",
+      "x": 95,
+      "y": -75
+    },
+    {
+      "id": "10",
+      "x": 30,
+      "y": -40
+    },
+    {
+      "id": "11",
+      "x": 0,
+      "y": -50
+    },
+    {
+      "id": "12",
+      "x": -30,
+      "y": -35
+    },
+    {
+      "id": "13",
+      "x": -20,
+      "y": 5
+    },
+    {
+      "id": "14",
+      "x": -90,
+      "y": -55
+    },
+    {
+      "id": "15",
+      "x": -60,
+      "y": 7
+    },
+    {
+      "id": "16",
+      "x": -90,
+      "y": 15
+    },
+    {
+      "id": "17",
+      "x": -40,
+      "y": 40
+    },
+    {
+      "id": "18",
+      "x": -60,
+      "y": 60
+    }
+  ],
+  "arcs": [
+    {
+      "source": "1",
+      "dest": "2",
+      "points": []
+    },
+    {
+      "source": "2",
+      "dest": "4",
+      "points": []
+    },
+    {
+      "source": "4",
+      "dest": "6",
+      "points": []
+    },
+    {
+      "source": "6",
+      "dest": "7",
+      "points": []
+    },
+    {
+      "source": "7",
+      "dest": "8",
+      "points": []
+    },
+    {
+      "source": "8",
+      "dest": "9",
+      "points": []
+    },
+    {
+      "source": "8",
+      "dest": "5",
+      "points": []
+    },
+    {
+      "source": "9",
+      "dest": "10",
+      "points": []
+    },
+    {
+      "source": "8",
+      "dest": "10",
+      "points": []
+    },
+    {
+      "source": "5",
+      "dest": "10",
+      "points": []
+    },
+    {
+      "source": "9",
+      "dest": "11",
+      "points": []
+    },
+    {
+      "source": "11",
+      "dest": "12",
+      "points": []
+    },
+    {
+      "source": "12",
+      "dest": "14",
+      "points": []
+    },
+    {
+      "source": "11",
+      "dest": "14",
+      "points": []
+    },
+    {
+      "source": "3",
+      "dest": "5",
+      "points": []
+    },
+    {
+      "source": "3",
+      "dest": "4",
+      "points": []
+    },
+    {
+      "source": "5",
+      "dest": "7",
+      "points": []
+    },
+    {
+      "source": "18",
+      "dest": "1",
+      "points": []
+    },
+    {
+      "source": "17",
+      "dest": "18",
+      "points": []
+    },
+    {
+      "source": "16",
+      "dest": "18",
+      "points": []
+    },
+    {
+      "source": "14",
+      "dest": "16",
+      "points": []
+    },
+    {
+      "source": "16",
+      "dest": "15",
+      "points": []
+    },
+    {
+      "source": "14",
+      "dest": "15",
+      "points": []
+    },
+    {
+      "source": "15",
+      "dest": "13",
+      "points": []
+    },
+    {
+      "source": "13",
+      "dest": "3",
+      "points": []
+    },
+    {
+      "source": "13",
+      "dest": "17",
+      "points": []
+    },
+    {
+      "source": "1",
+      "dest": "3",
+      "points": []
+    },
+    {
+      "source": "12",
+      "dest": "5",
+      "points": []
+    },
+    {
+      "source": "13",
+      "dest": "12",
+      "points": []
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "1",
+      "name": "Warehouse A",
+      "node": "3"
+    },
+    {
+      "id": "2",
+      "name": "Warehouse B",
+      "node": "5"
+    },
+    {
+      "id": "3",
+      "name": "Warehouse C",
+      "node": "8"
+    },
+    {
+      "id": "4",
+      "name": "Warehouse D",
+      "node": "11"
+    },
+    {
+      "id": "5",
+      "name": "Warehouse E",
+      "node": "15"
+    }
+  ],
+  "stores": [
+    {
+      "id": "1",
+      "name": "Store A",
+      "node": "1"
+    },
+    {
+      "id": "2",
+      "name": "Store B",
+      "node": "2"
+    },
+    {
+      "id": "3",
+      "name": "Store C",
+      "node": "4"
+    },
+    {
+      "id": "4",
+      "name": "Store D",
+      "node": "6"
+    },
+    {
+      "id": "5",
+      "name": "Store E",
+      "node": "7"
+    },
+    {
+      "id": "6",
+      "name": "Store F",
+      "node": "9"
+    },
+    {
+      "id": "7",
+      "name": "Store G",
+      "node": "10"
+    },
+    {
+      "id": "8",
+      "name": "Store H",
+      "node": "12"
+    },
+    {
+      "id": "9",
+      "name": "Store J",
+      "node": "13"
+    },
+    {
+      "id": "10",
+      "name": "Store K",
+      "node": "14"
+    },
+    {
+      "id": "11",
+      "name": "Store L",
+      "node": "16"
+    },
+    {
+      "id": "12",
+      "name": "Store M",
+      "node": "17"
+    },
+    {
+      "id": "13",
+      "name": "Store N",
+      "node": "18"
+    }
+  ]
+}
